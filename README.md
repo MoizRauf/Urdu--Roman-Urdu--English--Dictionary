@@ -1,7 +1,14 @@
 # Urdu-- Roman-Urdu -- English -- Dictionary
 
 ### About the dataset
-The dataset contains 5916 trilingual Urdu -- Roman Urdu -- English terms. The parallel lexicon has been generated using  statistical machine translation approaches, word embeddings and parallel corpora for dictionary creation. The repository contains 
+The dataset contains 5916 trilingual Urdu -- Roman Urdu -- English terms. The parallel lexicon has been generated using  statistical machine translation approaches, word embeddings and parallel corpora for dictionary creation. The repository contains following files.
+
+| File | Description |
+|:--------:|:----:|
+| Gold_Annotations.tsv  |  File contains 1000 trilingual pairs evaluated by human annotators.  |
+| en_ur_rom.high.tsv |  File contains trilingual translations, having Urdu--Roman Urdu score between (.68,1)  |
+| en_ur_rom.mid.tsv |  File contains trilingual translations, having Urdu--Roman Urdu score between (.33,.67)   |
+| en_ur_rom.low.tsv |  File contains trilingual translations, having Urdu--Roman Urdu score between (.1,.32)  |
 
 
 For more details regarding the data set, kindly refer the paper: (http://www.winlp.org/wp-content/uploads/2019/final_papers/139_Paper.pdf)
